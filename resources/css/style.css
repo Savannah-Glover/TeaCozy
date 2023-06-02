@@ -1,0 +1,152 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.header {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    padding: 10px;
+    z-index: 10;
+    background-color: black;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+ul li{
+    display: inline;
+    padding-right: 10px;
+}
+
+li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.content {
+    margin-top: 95px;
+    z-index: 1;
+}
+
+.mission {
+    position: relative;
+    display: inline-block;
+}
+
+.mission #mission-img {
+    /* display: block; */
+    width: 100%;
+    height: 700px;
+}
+
+#mission-text {
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    width: 1200px;
+    margin-top: -50px;
+    margin-left: -100px;
+    z-index: 2;
+    text-align: center;
+    background-color: black;
+}
+
+.month {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.images img, .moreimages img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.images div, .moreimages div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.moreimages {
+    display: flex;
+    justify-content: space-around;
+}
+
+.images div h4, .moreimages div h4 {
+    margin-top: 10px;
+}
+
+
+.locations {
+    position: relative;
+    background-image: url("../img/locations-background.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 10px 50px;
+    padding-top: 20px;
+    height: 500px;
+    width: auto;
+}
+
+.place {
+    background-color: black;
+    width: 300px;
+    display: flex-inline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title {
+    margin-bottom: 15px;
+}
+
+.place {
+    margin-top: 15px;
+}
+
+.middle {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contactInfo {
+    height: 200px;
+}
+
+#copywright {
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+    
+
